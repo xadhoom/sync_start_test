@@ -9,10 +9,6 @@ defmodule SyncStartTest.Mixfile do
     ]
   end
 
-  #def application do
-  #  [applications: [], included_applications: [:primary]]
-  #end
-
   # Dependencies listed here are available only for this
   # project and cannot be accessed from applications inside
   # the apps folder.
