@@ -28,7 +28,7 @@ defmodule Primary.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:secondary, path: "../../included_apps/secondary"}
+      {:secondary, in_umbrella: true}
     ]
   end
 end
